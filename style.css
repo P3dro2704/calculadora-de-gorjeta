@@ -31,6 +31,7 @@ header{
 main{
     background-color: var(--white);
     padding: 2rem;
+    border-radius: 1.5625rem 1.5625rem 0 0;
 }
 
 .conta,
@@ -109,4 +110,35 @@ main{
 
 .gorjeta #outra::placeholder {
     color: var(--grenn-300);
+}
+
+.pessoas #erro {
+    display: none;
+}
+
+.resultados {
+    background-color: var(--grenn-800);
+    border-radius: 0.9375rem;
+    padding: 1.5rem;
+}
+
+.resultados div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resultados p {
+    color: var(--grenn-400);
+    font-size: 0.8125rem;
+}
+
+.resultados p strong  {
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.resultados div > strong {
+    color: var(--linght-green);
+    font-size: 2rem;
 }
